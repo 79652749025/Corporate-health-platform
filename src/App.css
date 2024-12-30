@@ -1,0 +1,62 @@
+/* App.css */
+.app-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100vw;
+}
+
+.data-input-panel {
+  width: 33%;
+  background-color: #f4f4f4;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.right-panel {
+  display: flex;
+  flex-direction: column;
+  width: 67%;
+}
+
+.upper-panel {
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+}
+
+.visualization-panel {
+  width: 67%;
+  background-color: #fff;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.agent-avatar-panel {
+  width: 33%;
+  background-color: #eef2f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lower-panel {
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+}
+
+.document-output-panel {
+  width: 67%;
+  background-color: #fff;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.specialist-twin-panel {
+  width: 33%;
+  background-color: #eef2f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
