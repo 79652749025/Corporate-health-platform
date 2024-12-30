@@ -1,3 +1,6 @@
+// components/AgentAvatar.js
+import React from 'react';
+
 function AgentAvatar() {
   return (
     <div>
